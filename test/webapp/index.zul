@@ -1,0 +1,25 @@
+<zk>
+			<vlayout>
+				<div>
+					<listbox></listbox>
+				</div>
+				<tabbox id="tb" width="500px" height="360px" mold="accordion">
+				    <tabs>
+				        <texttab label="Zul"  >
+				        	<textbox id="test" value="test" onChange="alert(self.value)"/> 
+				        </texttab>
+				        <texttab label="Zul" >
+				        	<textbox id="test2" value="test2"/>
+				        </texttab>
+				        <texttab label="Zul"  >
+				        	<textbox id="test3" value="test3"/>
+				        </texttab>
+				    </tabs>
+				    <tabpanels>
+				        <tabpanel />
+				        <tabpanel />
+				        <tabpanel />
+				    </tabpanels>
+				</tabbox>
+			</vlayout>
+</zk>
